@@ -7,6 +7,8 @@ import Routes from 'react-static-routes'
 
 import './app.css'
 
+import backgroundImage from './assets/bg.png'
+
 const AppStyles = glamorous.div({
   fontFamily:
     "'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif",
@@ -36,9 +38,10 @@ const AppStyles = glamorous.div({
 const App = () => (
   <Router>
     <AppStyles>
-      <div className="content">
+      <main className="content main">
         <Routes />
-      </div>
+        <img src={backgroundImage} alt="" className="background-image" />
+      </main>
     </AppStyles>
   </Router>
 )

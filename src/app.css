@@ -5,33 +5,111 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  background: #02076F;
+  background: black;
+}
+
+.main {
+  width: 1600px;
+  height: 1200px;
+  margin: 0 auto;
+  position: relative;
+  border-bottom: 1px red solid;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.marquee {
+  top: 15px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 5;
+  color: white;
+  position: absolute;
+  overflow: hidden;
+}
+
+.Marquee {
+  width: 100%;
+  font-size: 36px;
+  white-space: nowrap;
+  color: #D91821;
+  -webkit-text-stroke: 2px black;
+  font-weight: 900;
+}
+
+.main-app {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 187px;
 }
 
 .slot-items {
   display: flex;
   height: 320px;
+  position: absolute;
+  top: 195px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .slot {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 320px;
   background: #ccc;
-  margin: 10px;
+  margin: 4px;
 }
 
 .spin-button {
-  width: 80%;
+  width: 840px;
   font-size: 25px;
-  height: 90px;
-  line-height: 90px;
+  height: 74px;
+  border-radius: 20px;
+  line-height: 74px;
   background: darkred;
-  color: white;
+  color: rgba(255,255,255,.9);
   display: block;
   margin: 0 auto;
+  position: absolute;
+  top: 546px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
-.main-app {
-  width: 1000px;
-  margin: 0 auto;
-  border: 1px blue solid;
+.generic-card-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.generic-slot-thing {
+  position: relative; 
+  width: 100%; 
+  height: 100%;
+  font-size: 40px;
+  text-align: center;
+  color: #F1EE42;
+  -webkit-text-stroke: 2px black;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.patrick {
+  width: 340px;
+  position: absolute;
+  right: -30px;
+  bottom: -10px;
 }

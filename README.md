@@ -2,7 +2,7 @@
 
 Built using React-Static 
 
-## Get started
+## Develop
 
 * Check out the code
 * Run `yarn`

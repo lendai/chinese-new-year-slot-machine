@@ -1,5 +1,5 @@
 {
-  "name": "react-static-starter",
+  "name": "new-years-eve-slot-machine",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -14,11 +14,13 @@
     "easing-functions": "^1.0.1",
     "glamor": "^2.20.40",
     "glamorous": "^4.9.7",
+    "moment": "^2.20.1",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router": "^4.2.0",
     "react-slot-machine": "^1.0.0",
+    "react-smooth-marquee": "^1.0.0",
     "react-static": "^5.1.8"
   },
   "devDependencies": {
